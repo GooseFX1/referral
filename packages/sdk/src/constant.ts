@@ -1,7 +1,7 @@
 import { clusterApiUrl, PublicKey } from "@solana/web3.js";
 
 export const PROGRAM_ID = new PublicKey(
-  "REFER4ZgmyYx9c6He5XfaTMiGfdLwRnkV4RPp9t9iF3",
+  "GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3",
 );
 
 export const RPC_URL =

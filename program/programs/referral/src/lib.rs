@@ -11,7 +11,7 @@ declare_id!("9vhgK3i91cTwTHQag85zoA3PmJUTfgvgYFc9AJPRNhGn");
 declare_id!("9vhgK3i91cTwTHQag85zoA3PmJUTfgvgYFc9AJPRNhGn");
 
 #[cfg(feature = "mainnet")]
-declare_id!("REFER4ZgmyYx9c6He5XfaTMiGfdLwRnkV4RPp9t9iF3");
+declare_id!("GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3");
 
 pub const PROJECT_SEED: &[u8] = b"project";
 pub const PROJECT_AUTHORITY_SEED: &[u8] = b"project_authority";
