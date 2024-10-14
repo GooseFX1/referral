@@ -5,10 +5,10 @@ use anchor_lang::prelude::*;
 use instructions::*;
 
 #[cfg(all(not(feature = "devnet"), not(feature = "mainnet")))]
-declare_id!("9vhgK3i91cTwTHQag85zoA3PmJUTfgvgYFc9AJPRNhGn");
+declare_id!("GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3");
 
 #[cfg(feature = "devnet")]
-declare_id!("9vhgK3i91cTwTHQag85zoA3PmJUTfgvgYFc9AJPRNhGn");
+declare_id!("GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3");
 
 #[cfg(feature = "mainnet")]
 declare_id!("GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3");

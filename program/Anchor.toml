@@ -1,9 +1,9 @@
 [features]
 seeds = false
 [programs.localnet]
-referral = "9vhgK3i91cTwTHQag85zoA3PmJUTfgvgYFc9AJPRNhGn"
+referral = "GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3"
 [programs.devnet]
-referral = "9vhgK3i91cTwTHQag85zoA3PmJUTfgvgYFc9AJPRNhGn"
+referral = "GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3"
 [programs.mainnet]
 referral = "GMRpg29rcyvoYS5XnzXy8mC1qV58xRB5zWkSVLBsuhc3"
 
