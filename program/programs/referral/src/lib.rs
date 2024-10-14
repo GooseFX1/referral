@@ -1,5 +1,10 @@
 mod events;
 mod instructions;
+pub use instructions::{
+    InitializeProjectParams, UpdateProjectParams, TransferProjectParams, UpdateReferralAccountParams, 
+    WithdrawFromProjectParams, InitializeReferralAccountParams, InitializeReferralAccountWithNameParams,
+    TransferReferralAccountParams, 
+};
 
 use anchor_lang::prelude::*;
 use instructions::*;
@@ -104,10 +109,10 @@ pub struct Initialize {}
 
 #[account]
 pub struct Project {
-    base: Pubkey,
-    admin: Pubkey,
-    name: String,
-    default_share_bps: u16,
+    pub base: Pubkey,
+    pub admin: Pubkey,
+    pub name: String,
+    pub default_share_bps: u16,
 }
 
 impl Project {
@@ -116,10 +121,10 @@ impl Project {
 
 #[account]
 pub struct ReferralAccount {
-    partner: Pubkey,
-    project: Pubkey,
-    share_bps: u16,
-    name: Option<String>,
+    pub partner: Pubkey,
+    pub project: Pubkey,
+    pub share_bps: u16,
+    pub name: Option<String>,
 }
 
 impl ReferralAccount {
